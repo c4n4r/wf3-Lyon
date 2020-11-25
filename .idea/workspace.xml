@@ -11,13 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f962d29-2cc0-4306-80d8-fcdf18b2aea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/default.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FirstController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -101,8 +102,16 @@
       <option name="presentableId" value="Default" />
       <updated>1606224561283</updated>
       <workItem from="1606224562359" duration="5340000" />
-      <workItem from="1606293619275" duration="3094000" />
+      <workItem from="1606293619275" duration="4633000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1606298698786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606298698786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +129,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="785" y="461" key="NewPhpFileDialog" timestamp="1606227863827">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -129,5 +142,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="464" y="175" width="992" height="740" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606294739436" />
+    <state x="560" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606298754204">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606298754204" />
+    <state x="764" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606298673613">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="764" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606298673613" />
   </component>
 </project>

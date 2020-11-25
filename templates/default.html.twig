@@ -17,9 +17,14 @@
     <p>Liste de mes articles</p>
     <ul>
         {% for article in articles %}
-
-            <li>{{ article }}</li>
-
+            {% if article.author == "Charlotte" %}
+            <li>{{ article.title }}</li>
+            <span>{{ article.description }}</span>
+            {% if article.content  is defined %}
+            <p>{{ article.content }}</p>
+            {% endif %}
+            <span>{{ article.author }}</span>
+            {% endif %}
         {% endfor %}
     </ul>
 
