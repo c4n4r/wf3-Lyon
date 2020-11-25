@@ -11,11 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f962d29-2cc0-4306-80d8-fcdf18b2aea1" name="Default Changelist" comment="début routing vers page article">
-      <change afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/image-not-found.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wf3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wf3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/FirstController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/default.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +80,30 @@
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kjqtKq4WXdjJ2ArHrzGtaBhDfF" />
@@ -85,7 +114,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,6 +125,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606224561283</updated>
       <workItem from="1606224562359" duration="5340000" />
-      <workItem from="1606293619275" duration="12182000" />
+      <workItem from="1606293619275" duration="16865000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606298698786</created>
@@ -149,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606310558180</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="début routing vers page article">
+      <created>1606311681648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606311681648</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,18 +216,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="début routing vers page article" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="671" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606313639746">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="671" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1606313639746" />
     <state x="785" y="461" key="NewPhpFileDialog" timestamp="1606227863827">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="785" y="461" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606227863827" />
+    <state x="696" y="196" key="RollbackChangesDialog" timestamp="1606316674312">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="696" y="196" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606316674312" />
     <state x="464" y="175" width="992" height="740" key="SettingsEditor" timestamp="1606294739436">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="464" y="175" width="992" height="740" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606294739436" />
-    <state x="560" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606310561109">
+    <state x="560" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606311685668">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606310561109" />
+    <state x="560" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606311685668" />
+    <state x="661" y="259" width="844" height="562" key="find.popup" timestamp="1606314794668">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="661" y="259" width="844" height="562" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606314794668" />
     <state x="764" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606298673613">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
