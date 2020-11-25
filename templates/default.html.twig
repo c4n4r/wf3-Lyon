@@ -23,7 +23,7 @@
                 <div class="col-md-3">
                     <div class="card" style="width: 100%">
                         <div class="card-body">
-                            <h5 class="card-title">{{ game.name }}</h5>
+                            <h5 class="card-title"><a href="{{ path('article') }}">{{ game.name }}</a></h5>
                             <p class="card-text">Support: {{ game.support }}</p>
                             <p class="card-text">{{ game.price}}€ genre: {{ game.type }}</p>
                         </div>

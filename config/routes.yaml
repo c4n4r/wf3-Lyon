@@ -9,3 +9,7 @@ index:
 home:
   path: /home
   controller: App\Controller\FirstController::homeAction
+
+article:
+  path: /article
+  controller: App\Controller\FirstController::articleAction

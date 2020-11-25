@@ -53,6 +53,12 @@ class FirstController extends AbstractController {
 
     }
 
+    public function articleAction(){
+
+        return $this->render('article.html.twig');
+
+    }
+
     public function homeAction(){
         return new Response('voici la home');
     }
