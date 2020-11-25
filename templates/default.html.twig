@@ -14,20 +14,26 @@
 </nav>
 <div class="container">
     <h1>Bienvenue sur mon site !!</h1>
-    <p>Liste de mes articles</p>
-    <ul>
-        {% for article in articles %}
-            {% if article.author == "Charlotte" %}
-            <li>{{ article.title }}</li>
-            <span>{{ article.description }}</span>
-            {% if article.content  is defined %}
-            <p>{{ article.content }}</p>
-            {% endif %}
-            <span>{{ article.author }}</span>
+    <p>Liste de mes jeux</p>
+
+        <div class="row">
+
+        {% for game in games %}
+            {% if game.support == filter %}
+                <div class="col-md-3">
+                    <div class="card" style="width: 100%">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ game.name }}</h5>
+                            <p class="card-text">Support: {{ game.support }}</p>
+                            <p class="card-text">{{ game.price}}€ genre: {{ game.type }}</p>
+                        </div>
+                    </div>
+                </div>
+
             {% endif %}
         {% endfor %}
-    </ul>
 
+        </div>
 
 </div>
 

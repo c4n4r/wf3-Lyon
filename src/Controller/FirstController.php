@@ -10,21 +10,46 @@ class FirstController extends AbstractController {
     public function defaultAction(){
         $siteName = "Mon joli site";
 
-        $articles = [
+        //faire un tableau qui représente une liste de jeux vidéos.
+        $games = [
             [
-                "title" => "Titre de mon article 1",
-                "description" => "Oh que cet article est intéressant",
-                "content" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum urna urna, eget ornare justo auctor at. Phasellus vestibulum nibh ut nunc volutpat auctor. Duis ut convallis odio. Aliquam vitae elementum eros. Nullam et lectus odio. Aliquam ut venenatis arcu. Suspendisse finibus diam augue, in ullamcorper nunc accumsan nec. Vestibulum semper nisi eget erat faucibus dapibus. Quisque vitae gravida mauris. Duis consectetur justo et mauris vulputate interdum. Suspendisse ut sem pretium, ultricies est in, fringilla ipsum.",
-                "author" => "Hadrien Delphin"
+                "name" => "Quake 3",
+                "support" => "PC",
+                "price" => 30,
+                "type" => "FPS"
             ],
             [
-                "title" => "Titre de mon article 2",
-                "description" => "Incroyable, un second article !!!",
-                "author" => "Charlotte"
+                "name" => "Warcraft 3",
+                "support" => "PC",
+                "price" => 40,
+                "type" => "RTS"
+            ],
+            [
+                "name" => "Mario Kart 8",
+                "support" => "Switch",
+                "price" => 50,
+                "type" => "Racing"
+            ],
+            [
+                "name" => "Halo",
+                "support" => "Xbox",
+                "price" => 70,
+                "type" => "FPS"
+            ],
+            [
+                "name" => "Animal Crossing",
+                "support" => "Switch",
+                "price" => 60,
+                "type" => "Life Sim"
             ]
         ];
+        $filter = "PC";
+        //afficher la liste des jeux sur le template avec toutes les informations
+
+        //bonus, filtrer par support :
+        // envoyer au template une variable filter qui représente le support a filtrer
         return $this->render('default.html.twig',
-            ["site"=>$siteName, "articles"=>$articles]);
+            ["site"=>$siteName, "games" => $games, "filter"=>$filter]);
 
     }
 
