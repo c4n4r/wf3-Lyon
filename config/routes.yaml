@@ -11,5 +11,5 @@ home:
   controller: App\Controller\FirstController::homeAction
 
 article:
-  path: /article
+  path: /article/{name}
   controller: App\Controller\FirstController::articleAction
