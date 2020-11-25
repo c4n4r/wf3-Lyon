@@ -1,4 +1,7 @@
 {% extends 'base.html.twig' %}
+{% block styles %}
+    <link rel="stylesheet" href="{{ asset('styles/home.css') }}">
+{% endblock styles %}
 {% block body %}
 <div class="container mt-4">
     <h1>Bienvenue sur mon site !!</h1>
@@ -18,8 +21,8 @@
                         {% endif %}
                         <div class="card-body">
                             <h5 class="card-title"><a href="{{ path('article', {name: game.name}) }}">{{ game.name }}</a></h5>
-                            <p class="card-text">Support: {{ game.support }}</p>
-                            <p class="card-text">{{ game.price}}€ genre: {{ game.type }}</p>
+                            <p class="card-text text-red">Support: {{ game.support }}</p>
+                            <p class="card-text">{{ game.price }}€ genre: {{ game.type }}</p>
                         </div>
                     </div>
                 </div>

@@ -46,8 +46,7 @@ class FirstController extends AbstractController {
     ];
 
 
-    public function defaultAction(Request $request){
-        dd($request);
+    public function defaultAction(){
         //faire un tableau qui représente une liste de jeux vidéos.
         $filter = "All";
         //afficher la liste des jeux sur le template avec toutes les informations
