@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f962d29-2cc0-4306-80d8-fcdf18b2aea1" name="Default Changelist" comment="début routing vers page article">
+      <change afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FirstController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/default.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html.twig" afterDir="false" />
@@ -103,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606224561283</updated>
       <workItem from="1606224562359" duration="5340000" />
-      <workItem from="1606293619275" duration="10942000" />
+      <workItem from="1606293619275" duration="12182000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606298698786</created>
@@ -140,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606308676649</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="début routing vers page article">
+      <created>1606310558180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606310558180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,10 +183,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="464" y="175" width="992" height="740" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606294739436" />
-    <state x="560" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606308679623">
+    <state x="560" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606310561109">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606308679623" />
+    <state x="560" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606310561109" />
     <state x="764" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606298673613">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

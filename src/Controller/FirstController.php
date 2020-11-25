@@ -42,8 +42,6 @@ class FirstController extends AbstractController {
 
 
     public function defaultAction(){
-        $siteName = "Mon joli site";
-
         //faire un tableau qui représente une liste de jeux vidéos.
         $filter = "PC";
         //afficher la liste des jeux sur le template avec toutes les informations
@@ -51,7 +49,7 @@ class FirstController extends AbstractController {
         //bonus, filtrer par support :
         // envoyer au template une variable filter qui représente le support a filtrer
         return $this->render('default.html.twig',
-            ["site"=>$siteName, "games" => $this->games, "filter"=>$filter]);
+            ["games" => $this->games, "filter"=>$filter]);
 
     }
 
